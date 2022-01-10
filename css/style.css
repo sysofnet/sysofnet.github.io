@@ -1,13 +1,12 @@
 footer#copyright {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0; left: 0;
     width: 100%;
     padding-top: 8px;
     text-align: center;
-    background-color: #000000;
     color: #777777;
+    border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    border-radius: 4px;
+    background-color: #000000
 }
