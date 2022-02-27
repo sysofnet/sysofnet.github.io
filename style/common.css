@@ -1,3 +1,7 @@
+@charset "utf-8";
+
+@import "normalize.css";
+
 footer#copyright {
     position: absolute;
     bottom: 0; left: 0;
