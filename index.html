@@ -16,11 +16,22 @@
     <link rel="shortcut icon" href="/image/favicon.png" type="image/png">
     <link rel="mask-icon" href="/image/favicon.svg" type="image/svg+xml" color="#5bbad5">
     <link rel="apple-touch-icon" href="/image/favicon-180.png" type="image/png" sizes="180x180">
-    <link rel="manifest" href="/site.webmanifest"
-        type="application/manifest+json" crossorigin="use-credentials">
+    <link rel="manifest" href="/site.webmanifest" type="application/manifest+json">
     <!--[if lt IE 9]>
         <script src="/script/html5shiv.min.js"></script>
     <![endif]-->
+    <script><!--//
+        var promisejs = '';
+
+        promisejs += '<script src="';
+        promisejs += '/script/promise.min.js';
+        promisejs += '"';
+        promisejs += '><\/script>';
+
+        window.Promise || document.write(promisejs);
+    //--></script>
+    <script src="/script/jquery.min.js"></script>
+    <script src="/script/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/style/html5reset.min.css" type="text/css">
     <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/style/bootstrap-responsive.min.css" type="text/css" media="all">
@@ -64,7 +75,5 @@
     <div id="footer">
         <p id="copyright">Copyright&nbsp;&copy;&nbsp;</p>
     </div>
-    <script src="/script/jquery.min.js"></script>
-    <script src="/script/bootstrap.min.js"></script>
 </body>
 </html>
